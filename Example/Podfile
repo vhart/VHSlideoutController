@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'VHSlideoutController_Example', :exclusive => true do
+  pod "VHSlideoutController", :path => "../"
+end
+
+target 'VHSlideoutController_Tests', :exclusive => true do
+  pod "VHSlideoutController", :path => "../"
+
+  
+end
