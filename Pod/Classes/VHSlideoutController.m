@@ -37,7 +37,7 @@ const double ANIMATION_DURATION = .275;
         UIView *left   = [[UIView alloc]initWithFrame:CGRectMake(0, 0, width, height)];
         self.leftView  = left;
 
-        UIView *right  = [[UIView alloc]initWithFrame:CGRectMake(0, width, width, height)];
+        UIView *right  = [[UIView alloc]initWithFrame:CGRectMake(width, 0, width, height)];
         self.rightView = right;
 
         self.hasSetUpViews = YES;
