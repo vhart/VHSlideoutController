@@ -62,16 +62,19 @@ self.shouldPostReturnedToCenterNotification = YES;
 ```
 But, be sure to add the recieving classes as observers to the Notification Center:
 ```objC
-   //These are the three notification names:
-   @"VHMovedLeftNotification"         //LEFT NOTIFICATION
-   @"VHMovedRightNotification"        //RIGHT NOTIFICATION
-   @"VHReturnedToCenterNotification"  //RETURNED TO CENTER
+//These are the three notification names you can choose from for the name parameter below:
+@"VHMovedLeftNotification"         //LEFT NOTIFICATION
+@"VHMovedRightNotification"        //RIGHT NOTIFICATION
+@"VHReturnedToCenterNotification"  //RETURNED TO CENTER
 ```
 Here's how you would add the observer:
 ```objC
-   [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(_SELECTOR_NAME_) name:@"VHMovedLeftNotification" object:nil];
+[[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(_SELECTOR_NAME_) name:(_NOTIFICATION STRING_) object:nil];
 ```
-When not needed, remember to remove the observer. 
+When no longer needed, remember to remove the observer. 
+```objC
+[[NSNotificationCenter defaultCenter]removeObserver:self name:(_NOTIFICATION_STRING_) object:nil];
+```
 
 ## Author
 
