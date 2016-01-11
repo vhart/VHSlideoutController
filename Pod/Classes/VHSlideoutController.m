@@ -15,6 +15,7 @@ const double ANIMATION_DURATION = .275;
 
 @property (nonatomic) BOOL isLeft;
 @property (nonatomic) BOOL isRight;
+@property (nonatomic) BOOL hasSetUpViews;
 @property (nonatomic) UIViewController *topViewController;
 
 @end
@@ -28,7 +29,7 @@ const double ANIMATION_DURATION = .275;
 #pragma MARK - SetupView
 - (void)setup{
 
-    if ([self needsViews]){
+    if (!self.hasSetUpViews){
 
         CGFloat width = self.view.bounds.size.width/2;
         CGFloat height = self.view.bounds.size.height;
@@ -38,11 +39,9 @@ const double ANIMATION_DURATION = .275;
 
         UIView *right  = [[UIView alloc]initWithFrame:CGRectMake(0, width, width, height)];
         self.rightView = right;
-    }
-}
 
-- (BOOL)needsViews{
-    return self.rightView.bounds.origin.x == 0;
+        self.hasSetUpViews = YES;
+    }
 }
 
 #pragma mark - Embedding View Controllers
