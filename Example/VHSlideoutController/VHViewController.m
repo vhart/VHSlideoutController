@@ -2,8 +2,8 @@
 //  VHViewController.m
 //  VHSlideoutController
 //
-//  Created by Varindra on 01/11/2016.
-//  Copyright (c) 2016 Varindra. All rights reserved.
+//  Created by Varindra Hart on 1/11/16.
+//  Copyright © 2016 Varindra. All rights reserved.
 //
 
 #import "VHViewController.h"
@@ -14,16 +14,21 @@
 
 @implementation VHViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    [self setupViews];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setupViews{
+
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *left = [storyboard instantiateViewControllerWithIdentifier:@"LeftViewController"];
+    UIViewController *right = [storyboard instantiateViewControllerWithIdentifier:@"RightViewController"];
+    UIViewController *top = [storyboard instantiateViewControllerWithIdentifier:@"TopViewController"];
+
+
+
 }
 
 @end

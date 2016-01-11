@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  VHSlideoutController: 9f07c89d471ee7b3459fa82b40e1d305a3fafbee
+  VHSlideoutController: 385b29cd31bce80473a55ca50e09b79b3db31a85
 
 COCOAPODS: 0.38.2

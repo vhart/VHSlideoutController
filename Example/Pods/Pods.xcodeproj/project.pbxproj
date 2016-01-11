@@ -7,39 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05B69790256873E861A013900918B6B5 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C54015D58BAB019DECFC4E19C44CD2 /* ReplaceMe.m */; };
-		15ED8D8BFBE3DF600DD9569877ADD093 /* VHSlideoutController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA97A0425C55E42CC1125E11D7929EE8 /* VHSlideoutController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27E3EDAA0482E084C5E72A86807FC13E /* VHSlideoutController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0370CEC767697D62D0D496E49C66B13 /* VHSlideoutController-dummy.m */; };
-		6304901F1D2C50CB5BD9765995CD0743 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF534E546EA26B4146452CBB514439D /* Foundation.framework */; };
+		404F36D04607FD8DC669BEAD94670C46 /* VHSlideoutController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C972B8FEE2414C5FE7DC6C0A0B35417 /* VHSlideoutController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		481094A1D97FC62A901246404D7DF7F6 /* VHSlideoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B876E8A502FE2C3EB10B7884B8DFDFF /* VHSlideoutController.m */; };
+		482846295F68185EB77FAA6EC30729BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56D9FD4C17B4C148D848C6F984FD186 /* Foundation.framework */; };
+		6304901F1D2C50CB5BD9765995CD0743 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56D9FD4C17B4C148D848C6F984FD186 /* Foundation.framework */; };
+		72B51E1642E33DF513F523FADF319A6F /* VHSlideoutController.h in Headers */ = {isa = PBXBuildFile; fileRef = A2D8F0C951F853E714F52116FF0875FA /* VHSlideoutController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A0345373E2A9D43CA51B44A1AEBCBCA /* Pods-VHSlideoutController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F39C04F5CBC278F6D10E0AEE5997940 /* Pods-VHSlideoutController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BBF77DD588F475B225C9125FC36EE8D /* VHSlideoutController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BDCBC264A5CA2D4BC349B0AEDF1C1B /* VHSlideoutController-dummy.m */; };
+		8B72FD33723C7106832DA39B8C79D4FE /* VHSlideoutController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6E39A1DAACD5D7F63E5D436213C28BC /* VHSlideoutController.bundle */; };
 		A04CDBC4410A40170BD903F8F47A8D59 /* Pods-VHSlideoutController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 701539681ED4A8F9605FD4126F5E6115 /* Pods-VHSlideoutController_Example-dummy.m */; };
-		A40BBC383AC8C28F99FD4130EACF61E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF534E546EA26B4146452CBB514439D /* Foundation.framework */; };
 		C3E93BEEB8F05AF63994DEEC85FCD7EB /* Pods-VHSlideoutController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A59BF1621592734CA5E659885E7E9CB6 /* Pods-VHSlideoutController_Tests-dummy.m */; };
-		D284591AF34AEFB19577673B9B696C19 /* VHSlideoutController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6E39A1DAACD5D7F63E5D436213C28BC /* VHSlideoutController.bundle */; };
 		E545351DC3856CEDE71A1911426B3580 /* Pods-VHSlideoutController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F10522C234F5F4B56E7A4B7B717C9AF /* Pods-VHSlideoutController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC25C7E4FEC35AD1B91C13C872ADD9EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF534E546EA26B4146452CBB514439D /* Foundation.framework */; };
+		EC25C7E4FEC35AD1B91C13C872ADD9EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56D9FD4C17B4C148D848C6F984FD186 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00381FA4A49185803137A641B02E3CE6 /* PBXContainerItemProxy */ = {
+		0C63073F464DDEC80C9176B98D6C6202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8C7DD48FB1458C89A7DF3A60243C2AB;
+			remoteInfo = VHSlideoutController;
+		};
+		9C3C4B15FBF819DE5B002982A79207E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 398577DD03128F253CAA5D276F33A4DF;
 			remoteInfo = "VHSlideoutController-VHSlideoutController";
 		};
-		2454B455C270276DD1F50BA5AB1C6F95 /* PBXContainerItemProxy */ = {
+		C25A9345F8F18D01BDA672915860D6EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 16D8F61E18BD8CD86594F7579F671DEF;
-			remoteInfo = VHSlideoutController;
-		};
-		AC9E0F4A488D611BE1D100FCA61EFA67 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 16D8F61E18BD8CD86594F7579F671DEF;
+			remoteGlobalIDString = B8C7DD48FB1458C89A7DF3A60243C2AB;
 			remoteInfo = VHSlideoutController;
 		};
 /* End PBXContainerItemProxy section */
@@ -48,21 +49,23 @@
 		0360533AC6F238C95A22B9CC3D386A18 /* Pods-VHSlideoutController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VHSlideoutController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		159E1A26A3DB6C3B76A9A0233DE6F488 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F39C04F5CBC278F6D10E0AEE5997940 /* Pods-VHSlideoutController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VHSlideoutController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		20C54015D58BAB019DECFC4E19C44CD2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		2775C7DDDAB5EBDC287FB3DD2B706BBA /* VHSlideoutController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "VHSlideoutController-Private.xcconfig"; sourceTree = "<group>"; };
 		2E7189A3B2B68FFBC826EFF947B4EE20 /* Pods-VHSlideoutController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VHSlideoutController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3410AF5B0249A7741EF573815F642F60 /* VHSlideoutController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VHSlideoutController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A62815DB69E23E87CE536A74000874 /* Pods-VHSlideoutController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VHSlideoutController_Tests.modulemap"; sourceTree = "<group>"; };
+		41BDCBC264A5CA2D4BC349B0AEDF1C1B /* VHSlideoutController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VHSlideoutController-dummy.m"; sourceTree = "<group>"; };
 		51BBF7B45A929C185BD07EB3170C60E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F4BF170A7EA368F15639920FE6900E7 /* VHSlideoutController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VHSlideoutController.xcconfig; sourceTree = "<group>"; };
 		620E533886745EC87CB3080E48105B36 /* Pods-VHSlideoutController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VHSlideoutController_Tests-resources.sh"; sourceTree = "<group>"; };
 		6AD6AB42968518318787656501A7C589 /* Pods_VHSlideoutController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VHSlideoutController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B876E8A502FE2C3EB10B7884B8DFDFF /* VHSlideoutController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VHSlideoutController.m; sourceTree = "<group>"; };
+		6C972B8FEE2414C5FE7DC6C0A0B35417 /* VHSlideoutController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VHSlideoutController-umbrella.h"; sourceTree = "<group>"; };
 		701539681ED4A8F9605FD4126F5E6115 /* Pods-VHSlideoutController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VHSlideoutController_Example-dummy.m"; sourceTree = "<group>"; };
 		71951099386FB8D41A73576F395905A1 /* Pods-VHSlideoutController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VHSlideoutController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		75E4EC388A40F323E399BA44974C7CE0 /* Pods-VHSlideoutController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VHSlideoutController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7BF534E546EA26B4146452CBB514439D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		767CE63F65CD4DC7CFF0735C790B7FFA /* VHSlideoutController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VHSlideoutController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F10522C234F5F4B56E7A4B7B717C9AF /* Pods-VHSlideoutController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VHSlideoutController_Example-umbrella.h"; sourceTree = "<group>"; };
 		966E4F18E07989FDE98F317454F5A090 /* Pods-VHSlideoutController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VHSlideoutController_Example.modulemap"; sourceTree = "<group>"; };
+		A2D8F0C951F853E714F52116FF0875FA /* VHSlideoutController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VHSlideoutController.h; sourceTree = "<group>"; };
 		A4BB223922538C3603C725AE0782037D /* Pods-VHSlideoutController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VHSlideoutController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A59BF1621592734CA5E659885E7E9CB6 /* Pods-VHSlideoutController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VHSlideoutController_Tests-dummy.m"; sourceTree = "<group>"; };
 		A6E39A1DAACD5D7F63E5D436213C28BC /* VHSlideoutController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VHSlideoutController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,12 +74,11 @@
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BB0A09C29A7033FD705C944E43B843B6 /* Pods-VHSlideoutController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VHSlideoutController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BC4EE20071173E19F8BC71CA52F8F3D2 /* Pods-VHSlideoutController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VHSlideoutController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C0370CEC767697D62D0D496E49C66B13 /* VHSlideoutController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VHSlideoutController-dummy.m"; sourceTree = "<group>"; };
+		C56D9FD4C17B4C148D848C6F984FD186 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C79153ED2A98AA8CA44F8BD97043A1B7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D927DD0D0692F675AC817DC8ECE8A78A /* VHSlideoutController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VHSlideoutController-prefix.pch"; sourceTree = "<group>"; };
 		E19C380796F773E1533DAA86DFEB402B /* Pods-VHSlideoutController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VHSlideoutController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E796E55333137867620444CD09F5FEEC /* Pods-VHSlideoutController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VHSlideoutController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EA97A0425C55E42CC1125E11D7929EE8 /* VHSlideoutController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VHSlideoutController-umbrella.h"; sourceTree = "<group>"; };
 		F1CC3A40ED4131F79CDA1F1918566FB9 /* VHSlideoutController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VHSlideoutController.modulemap; sourceTree = "<group>"; };
 		F8CD6DF6D202B41E66D6A4B238D14649 /* Pods-VHSlideoutController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VHSlideoutController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,11 +107,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A03E624769579CA3B461BB15906DFA0 /* Frameworks */ = {
+		DCD015837F559408EA3B3AB092755CDD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A40BBC383AC8C28F99FD4130EACF61E2 /* Foundation.framework in Frameworks */,
+				482846295F68185EB77FAA6EC30729BC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,18 +135,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		49C3F9D2C3A2806A9CFEC381979A3655 /* Classes */ = {
+		318A695EBA87BE173E7114543C21E269 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				20C54015D58BAB019DECFC4E19C44CD2 /* ReplaceMe.m */,
+				A0367317AB669FC9F6D842CF56ECC618 /* Classes */,
 			);
-			path = Classes;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7BF534E546EA26B4146452CBB514439D /* Foundation.framework */,
+				C56D9FD4C17B4C148D848C6F984FD186 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -178,12 +180,13 @@
 			);
 			sourceTree = "<group>";
 		};
-		9DA0A58D62CBDF06EEF996E5EB736876 /* Pod */ = {
+		A0367317AB669FC9F6D842CF56ECC618 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				49C3F9D2C3A2806A9CFEC381979A3655 /* Classes */,
+				A2D8F0C951F853E714F52116FF0875FA /* VHSlideoutController.h */,
+				6B876E8A502FE2C3EB10B7884B8DFDFF /* VHSlideoutController.m */,
 			);
-			path = Pod;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		ABD5AE4888BED3FAA37EBFBC9AD92929 /* Pods-VHSlideoutController_Tests */ = {
@@ -219,9 +222,9 @@
 				F1CC3A40ED4131F79CDA1F1918566FB9 /* VHSlideoutController.modulemap */,
 				5F4BF170A7EA368F15639920FE6900E7 /* VHSlideoutController.xcconfig */,
 				2775C7DDDAB5EBDC287FB3DD2B706BBA /* VHSlideoutController-Private.xcconfig */,
-				C0370CEC767697D62D0D496E49C66B13 /* VHSlideoutController-dummy.m */,
+				41BDCBC264A5CA2D4BC349B0AEDF1C1B /* VHSlideoutController-dummy.m */,
 				D927DD0D0692F675AC817DC8ECE8A78A /* VHSlideoutController-prefix.pch */,
-				EA97A0425C55E42CC1125E11D7929EE8 /* VHSlideoutController-umbrella.h */,
+				6C972B8FEE2414C5FE7DC6C0A0B35417 /* VHSlideoutController-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/VHSlideoutController";
@@ -233,7 +236,7 @@
 				6AD6AB42968518318787656501A7C589 /* Pods_VHSlideoutController_Example.framework */,
 				B4D1D665CB7B98E1EDD053FB53FD1B2B /* Pods_VHSlideoutController_Tests.framework */,
 				A6E39A1DAACD5D7F63E5D436213C28BC /* VHSlideoutController.bundle */,
-				3410AF5B0249A7741EF573815F642F60 /* VHSlideoutController.framework */,
+				767CE63F65CD4DC7CFF0735C790B7FFA /* VHSlideoutController.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -241,7 +244,7 @@
 		D28EB4BC7592DA7A94C6C25D2C4D7EFB /* VHSlideoutController */ = {
 			isa = PBXGroup;
 			children = (
-				9DA0A58D62CBDF06EEF996E5EB736876 /* Pod */,
+				318A695EBA87BE173E7114543C21E269 /* Pod */,
 				BD5A54B33ECFE406DC8B93299F950F64 /* Support Files */,
 			);
 			name = VHSlideoutController;
@@ -259,14 +262,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FFB7E7881C3EB856BF5926D0576981C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15ED8D8BFBE3DF600DD9569877ADD093 /* VHSlideoutController-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		923B88BDD1001AF47D441DB3A4F3D569 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -275,28 +270,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C53CE2A6B21CF0182A6278DD5B31943D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404F36D04607FD8DC669BEAD94670C46 /* VHSlideoutController-umbrella.h in Headers */,
+				72B51E1642E33DF513F523FADF319A6F /* VHSlideoutController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		16D8F61E18BD8CD86594F7579F671DEF /* VHSlideoutController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 801893DC50E744659761350694A3F36E /* Build configuration list for PBXNativeTarget "VHSlideoutController" */;
-			buildPhases = (
-				54680E4D4BAC9078506E1A44D3980179 /* Sources */,
-				8A03E624769579CA3B461BB15906DFA0 /* Frameworks */,
-				8CCFE41CC54B15459DD6D95F6F991BAE /* Resources */,
-				6FFB7E7881C3EB856BF5926D0576981C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				306AF638F1185000FCD742EEE90FB325 /* PBXTargetDependency */,
-			);
-			name = VHSlideoutController;
-			productName = VHSlideoutController;
-			productReference = 3410AF5B0249A7741EF573815F642F60 /* VHSlideoutController.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		195E637776B8FDED183176FFED41C9B8 /* Pods-VHSlideoutController_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3227C0889147EB3752C4B8BB54DE1C8 /* Build configuration list for PBXNativeTarget "Pods-VHSlideoutController_Example" */;
@@ -308,7 +293,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				24163D693741A3F7C704430C36F9CEDA /* PBXTargetDependency */,
+				85F903CC7562B64B126263FBE2810789 /* PBXTargetDependency */,
 			);
 			name = "Pods-VHSlideoutController_Example";
 			productName = "Pods-VHSlideoutController_Example";
@@ -343,11 +328,30 @@
 			buildRules = (
 			);
 			dependencies = (
-				F79F44BF924A1A5A6C068B4C5188299A /* PBXTargetDependency */,
+				FD5FCA3D3EEE745A92AA09F0933632B6 /* PBXTargetDependency */,
 			);
 			name = "Pods-VHSlideoutController_Tests";
 			productName = "Pods-VHSlideoutController_Tests";
 			productReference = B4D1D665CB7B98E1EDD053FB53FD1B2B /* Pods_VHSlideoutController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8C7DD48FB1458C89A7DF3A60243C2AB /* VHSlideoutController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F01F95748EABF1F5ECDB7126179C7D9 /* Build configuration list for PBXNativeTarget "VHSlideoutController" */;
+			buildPhases = (
+				B50225F899597447346CC71CB89EE6AF /* Sources */,
+				DCD015837F559408EA3B3AB092755CDD /* Frameworks */,
+				EA1DD941018B3D6E6C5FD3E088A97581 /* Resources */,
+				C53CE2A6B21CF0182A6278DD5B31943D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC795A504B6B9A094267AC1AD7DCCF3 /* PBXTargetDependency */,
+			);
+			name = VHSlideoutController;
+			productName = VHSlideoutController;
+			productReference = 767CE63F65CD4DC7CFF0735C790B7FFA /* VHSlideoutController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -373,18 +377,18 @@
 			targets = (
 				195E637776B8FDED183176FFED41C9B8 /* Pods-VHSlideoutController_Example */,
 				4BBAEBC2523B7252D55FFDE3BD4D93A9 /* Pods-VHSlideoutController_Tests */,
-				16D8F61E18BD8CD86594F7579F671DEF /* VHSlideoutController */,
+				B8C7DD48FB1458C89A7DF3A60243C2AB /* VHSlideoutController */,
 				398577DD03128F253CAA5D276F33A4DF /* VHSlideoutController-VHSlideoutController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8CCFE41CC54B15459DD6D95F6F991BAE /* Resources */ = {
+		EA1DD941018B3D6E6C5FD3E088A97581 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D284591AF34AEFB19577673B9B696C19 /* VHSlideoutController.bundle in Resources */,
+				8B72FD33723C7106832DA39B8C79D4FE /* VHSlideoutController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,12 +417,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54680E4D4BAC9078506E1A44D3980179 /* Sources */ = {
+		B50225F899597447346CC71CB89EE6AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05B69790256873E861A013900918B6B5 /* ReplaceMe.m in Sources */,
-				27E3EDAA0482E084C5E72A86807FC13E /* VHSlideoutController-dummy.m in Sources */,
+				7BBF77DD588F475B225C9125FC36EE8D /* VHSlideoutController-dummy.m in Sources */,
+				481094A1D97FC62A901246404D7DF7F6 /* VHSlideoutController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,23 +437,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		24163D693741A3F7C704430C36F9CEDA /* PBXTargetDependency */ = {
+		85F903CC7562B64B126263FBE2810789 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VHSlideoutController;
-			target = 16D8F61E18BD8CD86594F7579F671DEF /* VHSlideoutController */;
-			targetProxy = 2454B455C270276DD1F50BA5AB1C6F95 /* PBXContainerItemProxy */;
+			target = B8C7DD48FB1458C89A7DF3A60243C2AB /* VHSlideoutController */;
+			targetProxy = 0C63073F464DDEC80C9176B98D6C6202 /* PBXContainerItemProxy */;
 		};
-		306AF638F1185000FCD742EEE90FB325 /* PBXTargetDependency */ = {
+		DCC795A504B6B9A094267AC1AD7DCCF3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "VHSlideoutController-VHSlideoutController";
 			target = 398577DD03128F253CAA5D276F33A4DF /* VHSlideoutController-VHSlideoutController */;
-			targetProxy = 00381FA4A49185803137A641B02E3CE6 /* PBXContainerItemProxy */;
+			targetProxy = 9C3C4B15FBF819DE5B002982A79207E6 /* PBXContainerItemProxy */;
 		};
-		F79F44BF924A1A5A6C068B4C5188299A /* PBXTargetDependency */ = {
+		FD5FCA3D3EEE745A92AA09F0933632B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VHSlideoutController;
-			target = 16D8F61E18BD8CD86594F7579F671DEF /* VHSlideoutController */;
-			targetProxy = AC9E0F4A488D611BE1D100FCA61EFA67 /* PBXContainerItemProxy */;
+			target = B8C7DD48FB1458C89A7DF3A60243C2AB /* VHSlideoutController */;
+			targetProxy = C25A9345F8F18D01BDA672915860D6EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -568,6 +572,33 @@
 			};
 			name = Debug;
 		};
+		87A28D53ACDE6A8D807A31D7B1C3DB56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2775C7DDDAB5EBDC287FB3DD2B706BBA /* VHSlideoutController-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VHSlideoutController/VHSlideoutController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VHSlideoutController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VHSlideoutController/VHSlideoutController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = VHSlideoutController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		9EED915E53E6DC5D1FA825627296DD13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75E4EC388A40F323E399BA44974C7CE0 /* Pods-VHSlideoutController_Example.release.xcconfig */;
@@ -589,33 +620,6 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods_VHSlideoutController_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A1AD1444FF7FC8DA5C047FB29463CF4B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2775C7DDDAB5EBDC287FB3DD2B706BBA /* VHSlideoutController-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/VHSlideoutController/VHSlideoutController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VHSlideoutController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VHSlideoutController/VHSlideoutController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = VHSlideoutController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -694,7 +698,7 @@
 			};
 			name = Release;
 		};
-		ED9EB9B62B150096E756E18EDB28B757 /* Debug */ = {
+		CFB07D6502D9FC0C86E411D9D7EF1D7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2775C7DDDAB5EBDC287FB3DD2B706BBA /* VHSlideoutController-Private.xcconfig */;
 			buildSettings = {
@@ -711,7 +715,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/VHSlideoutController/VHSlideoutController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = VHSlideoutController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -719,7 +723,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -742,11 +746,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		801893DC50E744659761350694A3F36E /* Build configuration list for PBXNativeTarget "VHSlideoutController" */ = {
+		6F01F95748EABF1F5ECDB7126179C7D9 /* Build configuration list for PBXNativeTarget "VHSlideoutController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED9EB9B62B150096E756E18EDB28B757 /* Debug */,
-				A1AD1444FF7FC8DA5C047FB29463CF4B /* Release */,
+				87A28D53ACDE6A8D807A31D7B1C3DB56 /* Debug */,
+				CFB07D6502D9FC0C86E411D9D7EF1D7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

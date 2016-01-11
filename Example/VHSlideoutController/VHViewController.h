@@ -2,12 +2,12 @@
 //  VHViewController.h
 //  VHSlideoutController
 //
-//  Created by Varindra on 01/11/2016.
-//  Copyright (c) 2016 Varindra. All rights reserved.
+//  Created by Varindra Hart on 1/11/16.
+//  Copyright © 2016 Varindra. All rights reserved.
 //
 
-@import UIKit;
+#import "VHSlideoutController.h"
 
-@interface VHViewController : UIViewController
+@interface VHViewController : VHSlideoutController
 
 @end
