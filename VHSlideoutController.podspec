@@ -16,7 +16,8 @@ Pod::Spec.new do |s|
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC This CocoaPod provided the ability to create slideouts for a view controller
+  s.description      = <<-DESC
+This CocoaPod provided the ability to create slideouts for a view controller
                        DESC
 
   s.homepage         = "https://github.com/<GITHUB_USERNAME>/VHSlideoutController"
