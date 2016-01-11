@@ -11,6 +11,9 @@
 @interface VHSlideoutController : UIViewController
 @property (nonatomic) UIView *leftView;
 @property (nonatomic) UIView *rightView;
+@property (nonatomic) BOOL shouldPostMovedLeftNotification;
+@property (nonatomic) BOOL shouldPostMovedRightNotification;
+@property (nonatomic) BOOL shouldPostReturnedToCenterNotification;
 
 - (void)embedLeftViewController :(UIViewController *)leftViewController;
 - (void)embedRightViewController:(UIViewController *)rightViewController;

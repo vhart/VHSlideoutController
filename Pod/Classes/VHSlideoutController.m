@@ -10,6 +10,9 @@
 #import "VHSlideoutController.h"
 
 const double ANIMATION_DURATION = .275;
+NSString * const movedLeft        = @"VHMovedLeftNotification";
+NSString * const movedRight       = @"VHMovedRightNotification";
+NSString * const returnedToCenter = @"VHReturnedToCenterNotification";
 
 @interface VHSlideoutController ()
 
@@ -24,9 +27,10 @@ const double ANIMATION_DURATION = .275;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self setup];
 }
 
-#pragma MARK - SetupView
+#pragma MARK - SetupViews
 - (void)setup{
 
     if (!self.hasSetUpViews){
@@ -36,18 +40,18 @@ const double ANIMATION_DURATION = .275;
 
         UIView *left   = [[UIView alloc]initWithFrame:CGRectMake(0, 0, width, height)];
         self.leftView  = left;
+        [self.view addSubview:self.leftView];
 
         UIView *right  = [[UIView alloc]initWithFrame:CGRectMake(width, 0, width, height)];
         self.rightView = right;
+        [self.view addSubview:self.rightView];
 
         self.hasSetUpViews = YES;
     }
 }
 
-#pragma mark - Embedding View Controllers
+#pragma MARK - Embedding View Controllers
 - (void)embedTopViewController:(UIViewController *)topViewController{
-
-    [self setup];
 
     [self addChildViewController:topViewController];
     topViewController.view.frame = self.view.bounds;
@@ -62,8 +66,6 @@ const double ANIMATION_DURATION = .275;
 
 - (void)embedRightViewController:(UIViewController *)rightViewController{
 
-    [self setup];
-
     [self addChildViewController:rightViewController];
     rightViewController.view.frame = self.rightView.bounds;
     [self.rightView addSubview:rightViewController.view];
@@ -73,8 +75,6 @@ const double ANIMATION_DURATION = .275;
 
 - (void)embedLeftViewController:(UIViewController *)leftViewController{
 
-    [self setup];
-
     [self addChildViewController:leftViewController];
     leftViewController.view.frame = self.leftView.bounds;
     [self.leftView addSubview:leftViewController.view];
@@ -82,7 +82,7 @@ const double ANIMATION_DURATION = .275;
 
 }
 
-#pragma MARK SwipeGesture Methods
+#pragma MARK - SwipeGesture Methods
 
 //Method called to add swipe gestures to the top view controller. This allows it to
 //slide left and right
@@ -98,13 +98,11 @@ const double ANIMATION_DURATION = .275;
 
 }
 
-// New center for the top view controller is found and then the top view is
-// animated
+//New center for the top view controller is found and then the top view is
+//animated
 - (void)swipeRecognized:(UISwipeGestureRecognizer *)swipe{
 
-    CGPoint newAnchor = [self findNewAnchor:self.topViewController.view.center swipeDirection:swipe.direction];
-
-    CGRect newFrame = CGRectMake(newAnchor.x, newAnchor.y, self.topViewController.view.bounds.size.width, self.topViewController.view.bounds.size.height);
+    CGRect newFrame = [self getNewFrame:self.topViewController.view.center swipeDirection:swipe.direction];
 
     if (swipe.direction==UISwipeGestureRecognizerDirectionLeft && !self.isLeft) {
 
@@ -117,6 +115,8 @@ const double ANIMATION_DURATION = .275;
             else{
                 self.isLeft = YES;
             }
+
+            [self postCompletionNotification];
         }];
     }
 
@@ -131,8 +131,18 @@ const double ANIMATION_DURATION = .275;
             else{
                 self.isRight = YES;
             }
+
+            [self postCompletionNotification];
         }];
     }
+}
+
+- (CGRect)getNewFrame:(CGPoint)center swipeDirection:(UISwipeGestureRecognizerDirection)direction{
+
+    CGPoint newAnchor = [self findNewAnchor:self.topViewController.view.center swipeDirection:direction];
+
+    return CGRectMake(newAnchor.x, newAnchor.y, self.topViewController.view.bounds.size.width, self.topViewController.view.bounds.size.height);
+
 }
 
 - (CGPoint)findNewAnchor:(CGPoint)center swipeDirection:(UISwipeGestureRecognizerDirection)direction{
@@ -145,7 +155,23 @@ const double ANIMATION_DURATION = .275;
 
 }
 
-#pragma MARK Shadow Effect
+//Post a notification to allow other Controllers to react to the animation, if
+//necessary. Be sure to remove observer when not needed.
+- (void)postCompletionNotification{
+
+    if (self.shouldPostMovedLeftNotification && self.isLeft) {
+        [[NSNotificationCenter defaultCenter]postNotificationName:movedLeft object:nil];
+    }
+    if (self.shouldPostMovedRightNotification && self.isRight) {
+        [[NSNotificationCenter defaultCenter]postNotificationName:movedRight object:nil];
+    }
+    if (self.shouldPostReturnedToCenterNotification && !self.isLeft && !self.isRight) {
+        [[NSNotificationCenter defaultCenter]postNotificationName:returnedToCenter object:nil];
+    }
+
+}
+
+#pragma MARK - Shadow Effect
 
 //Adds shadow to the top view controller giving it a layered illusion
 - (void)addShadow:(UIView *)topView{

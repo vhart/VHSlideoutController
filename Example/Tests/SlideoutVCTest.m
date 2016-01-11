@@ -33,7 +33,8 @@
     [self.vcToTest setupViews];
 
     XCTAssertNotEqual(self.vcToTest.leftView.bounds.size.width, 0);
-    XCTAssertNotEqual(self.vcToTest.rightView.bounds.origin.x, 0);
+    
+    XCTAssertNotEqual(self.vcToTest.rightView.center.x, 0);
 
 }
 

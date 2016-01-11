@@ -22,21 +22,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0461A28C09E48981C364FD7BBD65B3F6 /* PBXContainerItemProxy */ = {
+		153C5CF4D55BAF0BBD49B16B35250B4D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B8C7DD48FB1458C89A7DF3A60243C2AB;
 			remoteInfo = VHSlideoutController;
 		};
-		73C72BCD74FEEBEB26FAD73602366B1F /* PBXContainerItemProxy */ = {
+		51CDA042BE9F983E0DE243748B0870B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B8C7DD48FB1458C89A7DF3A60243C2AB;
 			remoteInfo = VHSlideoutController;
 		};
-		EF5841B15E6C3E8538BE5419C369FB66 /* PBXContainerItemProxy */ = {
+		895C98A39A649EF5748B877C9DB37623 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -293,7 +293,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9D02C55B8E02A5FBE40770CE2C0B823F /* PBXTargetDependency */,
+				BE47513823AAD98CA5AB2E7DBE573BD4 /* PBXTargetDependency */,
 			);
 			name = "Pods-VHSlideoutController_Example";
 			productName = "Pods-VHSlideoutController_Example";
@@ -328,7 +328,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B52F3E9D14355DC894C387AF35AE5566 /* PBXTargetDependency */,
+				AF0A1045B5665144470CF58EE04A456B /* PBXTargetDependency */,
 			);
 			name = "Pods-VHSlideoutController_Tests";
 			productName = "Pods-VHSlideoutController_Tests";
@@ -347,7 +347,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F854556315096545AE8489664C46563C /* PBXTargetDependency */,
+				71DC71F5BF5FB912F2F3E73A48441B52 /* PBXTargetDependency */,
 			);
 			name = VHSlideoutController;
 			productName = VHSlideoutController;
@@ -437,23 +437,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9D02C55B8E02A5FBE40770CE2C0B823F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = VHSlideoutController;
-			target = B8C7DD48FB1458C89A7DF3A60243C2AB /* VHSlideoutController */;
-			targetProxy = 0461A28C09E48981C364FD7BBD65B3F6 /* PBXContainerItemProxy */;
-		};
-		B52F3E9D14355DC894C387AF35AE5566 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = VHSlideoutController;
-			target = B8C7DD48FB1458C89A7DF3A60243C2AB /* VHSlideoutController */;
-			targetProxy = 73C72BCD74FEEBEB26FAD73602366B1F /* PBXContainerItemProxy */;
-		};
-		F854556315096545AE8489664C46563C /* PBXTargetDependency */ = {
+		71DC71F5BF5FB912F2F3E73A48441B52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "VHSlideoutController-VHSlideoutController";
 			target = 398577DD03128F253CAA5D276F33A4DF /* VHSlideoutController-VHSlideoutController */;
-			targetProxy = EF5841B15E6C3E8538BE5419C369FB66 /* PBXContainerItemProxy */;
+			targetProxy = 895C98A39A649EF5748B877C9DB37623 /* PBXContainerItemProxy */;
+		};
+		AF0A1045B5665144470CF58EE04A456B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VHSlideoutController;
+			target = B8C7DD48FB1458C89A7DF3A60243C2AB /* VHSlideoutController */;
+			targetProxy = 153C5CF4D55BAF0BBD49B16B35250B4D /* PBXContainerItemProxy */;
+		};
+		BE47513823AAD98CA5AB2E7DBE573BD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VHSlideoutController;
+			target = B8C7DD48FB1458C89A7DF3A60243C2AB /* VHSlideoutController */;
+			targetProxy = 51CDA042BE9F983E0DE243748B0870B0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
