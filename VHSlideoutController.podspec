@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 This CocoaPod provided the ability to create slideouts for a view controller
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/VHSlideoutController"
+  s.homepage         = "https://github.com/vhart/VHSlideoutController"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Varindra" => "varindrahart@gmail.com" }
