@@ -27,7 +27,9 @@
     UIViewController *right = [storyboard instantiateViewControllerWithIdentifier:@"RightViewController"];
     UIViewController *top = [storyboard instantiateViewControllerWithIdentifier:@"TopViewController"];
 
-
+    [self embedLeftViewController:left];
+    [self embedRightViewController:right];
+    [self embedTopViewController:top];
 
 }
 

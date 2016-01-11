@@ -7,6 +7,7 @@
 //
 
 #import "VHSlideoutController.h"
+@import VHSlideoutController;
 
 @interface VHViewController : VHSlideoutController
 
