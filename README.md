@@ -17,6 +17,7 @@ VHSlideoutController is a subclass of UIViewController that lets you set a top, 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+ARC
 
 ## Installation
 
@@ -34,15 +35,15 @@ To use VHSlideoutController you first create a new class and make it a subclass 
 Then in your viewDidLoad create instances of the three view controllers you would like to designate as the left, right, and top. These view controllers will most likely have classes of their own so be sure to import the appropriate headers. 
 The example below shows how to instantiate and embed the view controllers from the storyboard:
 ```objC
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     
-    UIViewController *left  = [storyboard instantiateViewControllerWithIdentifier:@"LeftViewController"];
-    UIViewController *right = [storyboard instantiateViewControllerWithIdentifier:@"RightViewController"];
-    UIViewController *top   = [storyboard instantiateViewControllerWithIdentifier:@"TopViewController"];
+UIViewController *left  = [storyboard instantiateViewControllerWithIdentifier:@"LeftViewController"];
+UIViewController *right = [storyboard instantiateViewControllerWithIdentifier:@"RightViewController"];
+UIViewController *top   = [storyboard instantiateViewControllerWithIdentifier:@"TopViewController"];
 
-    [self embedLeftViewController:left];
-    [self embedRightViewController:right];
-    [self embedTopViewController:top];
+[self embedLeftViewController:left];
+[self embedRightViewController:right];
+[self embedTopViewController:top];
 ```
 Again, the above is using the storyboard, but you can just as easily instantiate from a nib and then call the embed methods.
 
@@ -50,14 +51,14 @@ Again, the above is using the storyboard, but you can just as easily instantiate
 You may want to perform certain actions upon the animations completion. Because there are three view controllers to communicate with (left, right, and top), you can simply tell your subclass of VHSlideoutController to post NSNotifications.
 To do this you just set the following in the viewDidLoad of your VHSlideoutController subclass:
 ```objC
-   // Send Notification when animation to the left is complete
-    self.shouldPostMovedLeftNotification = YES;
+// Send Notification when animation to the left is complete
+self.shouldPostMovedLeftNotification = YES;
   
-   // Send Notification when animation to the right is complete
-   self.shouldPostMovedRightNotification = YES;
+// Send Notification when animation to the right is complete
+self.shouldPostMovedRightNotification = YES;
 
-   // Send Notification when animation returning to the center is complete
-   self.shouldPostReturnedToCenterNotification = YES;
+// Send Notification when animation returning to the center is complete
+self.shouldPostReturnedToCenterNotification = YES;
 ```
 But, be sure to add the recieving classes as observers to the Notification Center:
 ```objC
