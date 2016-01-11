@@ -1,0 +1,6 @@
+framework module Pods_VHSlideoutController_Example {
+  umbrella header "Pods-VHSlideoutController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

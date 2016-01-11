@@ -1,0 +1,14 @@
+PODS:
+  - VHSlideoutController (0.1.0)
+
+DEPENDENCIES:
+  - VHSlideoutController (from `../`)
+
+EXTERNAL SOURCES:
+  VHSlideoutController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  VHSlideoutController: 9f07c89d471ee7b3459fa82b40e1d305a3fafbee
+
+COCOAPODS: 0.38.2

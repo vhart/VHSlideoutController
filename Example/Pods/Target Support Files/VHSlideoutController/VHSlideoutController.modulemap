@@ -1,0 +1,6 @@
+framework module VHSlideoutController {
+  umbrella header "VHSlideoutController-umbrella.h"
+
+  export *
+  module * { export * }
+}
