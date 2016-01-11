@@ -5,6 +5,12 @@
 [![License](https://img.shields.io/cocoapods/l/VHSlideoutController.svg?style=flat)](http://cocoapods.org/pods/VHSlideoutController)
 [![Platform](https://img.shields.io/cocoapods/p/VHSlideoutController.svg?style=flat)](http://cocoapods.org/pods/VHSlideoutController)
 
+## Overview
+
+VHSlideoutController is a subclass of UIViewController that lets you set a top, left, and right view controller. You can then swipe to reveal the layers.
+
+<p align = center> <img src= "https://github.com/vhart/VHSlideoutController/blob/master/VHSlideoutControllerDemo.gif" /> </p>
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
