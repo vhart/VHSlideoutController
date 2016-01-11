@@ -60,7 +60,8 @@ self.shouldPostMovedRightNotification = YES;
 // Send Notification when animation returning to the center is complete
 self.shouldPostReturnedToCenterNotification = YES;
 ```
-But, be sure to add the recieving classes as observers to the Notification Center:
+But, be sure to add the recieving classes as observers to the Notification Center.
+The NSStrings below are the names of the three possible notifications:
 ```objC
 //These are the three notification names you can choose from for the name parameter below:
 @"VHMovedLeftNotification"         //LEFT NOTIFICATION
