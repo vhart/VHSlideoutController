@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "29E526A79540AD4618938FAD"
+               BlueprintIdentifier = "7BB4EA9CC640E0895A9348B3"
                BuildableName = "VHSlideoutController.framework"
                BlueprintName = "VHSlideoutController"
                ReferencedContainer = "container:Pods.xcodeproj">

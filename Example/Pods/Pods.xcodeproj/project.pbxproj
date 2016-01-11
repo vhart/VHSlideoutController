@@ -22,21 +22,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6AD3E598B059176DB7C1B99DB689A89B /* PBXContainerItemProxy */ = {
+		07A5B6471A3C9489682917795B52772E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B8C7DD48FB1458C89A7DF3A60243C2AB;
 			remoteInfo = VHSlideoutController;
 		};
-		8EA02CA2A91DD13B2CAB11ADE65D7170 /* PBXContainerItemProxy */ = {
+		2DA5322DE30CB6F9E3D126E65D61C690 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 398577DD03128F253CAA5D276F33A4DF;
 			remoteInfo = "VHSlideoutController-VHSlideoutController";
 		};
-		AB9794EEBE50B13DE0D0EB3E96AD956C /* PBXContainerItemProxy */ = {
+		B9EA213847B43F7FDB055F509C41B50C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -293,7 +293,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6BED08EFF3E5859DBDB6332AEB909249 /* PBXTargetDependency */,
+				EECE9F0ADF481B3A8ED0A68C71E0098D /* PBXTargetDependency */,
 			);
 			name = "Pods-VHSlideoutController_Example";
 			productName = "Pods-VHSlideoutController_Example";
@@ -328,7 +328,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A3F0B326E1DCF83CEB1977E9D85DB39B /* PBXTargetDependency */,
+				B27B9A40B0418805A33637FB870D0E36 /* PBXTargetDependency */,
 			);
 			name = "Pods-VHSlideoutController_Tests";
 			productName = "Pods-VHSlideoutController_Tests";
@@ -347,7 +347,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1104BC5CE40314EA6A1D9521FA6D4099 /* PBXTargetDependency */,
+				F4F09CD29AB63848F0B86E8DF54E6921 /* PBXTargetDependency */,
 			);
 			name = VHSlideoutController;
 			productName = VHSlideoutController;
@@ -437,23 +437,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1104BC5CE40314EA6A1D9521FA6D4099 /* PBXTargetDependency */ = {
+		B27B9A40B0418805A33637FB870D0E36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VHSlideoutController;
+			target = B8C7DD48FB1458C89A7DF3A60243C2AB /* VHSlideoutController */;
+			targetProxy = 07A5B6471A3C9489682917795B52772E /* PBXContainerItemProxy */;
+		};
+		EECE9F0ADF481B3A8ED0A68C71E0098D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VHSlideoutController;
+			target = B8C7DD48FB1458C89A7DF3A60243C2AB /* VHSlideoutController */;
+			targetProxy = B9EA213847B43F7FDB055F509C41B50C /* PBXContainerItemProxy */;
+		};
+		F4F09CD29AB63848F0B86E8DF54E6921 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "VHSlideoutController-VHSlideoutController";
 			target = 398577DD03128F253CAA5D276F33A4DF /* VHSlideoutController-VHSlideoutController */;
-			targetProxy = 8EA02CA2A91DD13B2CAB11ADE65D7170 /* PBXContainerItemProxy */;
-		};
-		6BED08EFF3E5859DBDB6332AEB909249 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = VHSlideoutController;
-			target = B8C7DD48FB1458C89A7DF3A60243C2AB /* VHSlideoutController */;
-			targetProxy = AB9794EEBE50B13DE0D0EB3E96AD956C /* PBXContainerItemProxy */;
-		};
-		A3F0B326E1DCF83CEB1977E9D85DB39B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = VHSlideoutController;
-			target = B8C7DD48FB1458C89A7DF3A60243C2AB /* VHSlideoutController */;
-			targetProxy = 6AD3E598B059176DB7C1B99DB689A89B /* PBXContainerItemProxy */;
+			targetProxy = 2DA5322DE30CB6F9E3D126E65D61C690 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -485,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
@@ -524,7 +524,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";

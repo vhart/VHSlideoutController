@@ -42,7 +42,7 @@ const double ANIMATION_DURATION = .275;
 }
 
 - (BOOL)needsViews{
-    return self.leftView == nil;
+    return self.rightView.bounds.origin.x == 0;
 }
 
 #pragma mark - Embedding View Controllers

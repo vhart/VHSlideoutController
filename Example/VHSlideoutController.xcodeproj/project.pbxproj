@@ -23,6 +23,8 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C037E4E5986D8C3DE1E64C3B /* Pods_VHSlideoutController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C40EF1A5D7C6B0EB45E859 /* Pods_VHSlideoutController_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C7FC3CEF1C43947B00F24A29 /* VHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FC3CEE1C43947B00F24A29 /* VHViewController.m */; };
+		C7FC3CF11C43A34000F24A29 /* SlideoutVCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FC3CF01C43A34000F24A29 /* SlideoutVCTest.m */; };
+		C7FC3CF71C43A66D00F24A29 /* VHViewController+Tested.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FC3CF61C43A66D00F24A29 /* VHViewController+Tested.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C7FC3CED1C43947B00F24A29 /* VHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VHViewController.h; sourceTree = "<group>"; };
 		C7FC3CEE1C43947B00F24A29 /* VHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VHViewController.m; sourceTree = "<group>"; };
+		C7FC3CF01C43A34000F24A29 /* SlideoutVCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideoutVCTest.m; sourceTree = "<group>"; };
+		C7FC3CF51C43A66D00F24A29 /* VHViewController+Tested.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VHViewController+Tested.h"; sourceTree = "<group>"; };
+		C7FC3CF61C43A66D00F24A29 /* VHViewController+Tested.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VHViewController+Tested.m"; sourceTree = "<group>"; };
 		EDF0DD1EA92CB620DB327953 /* Pods-VHSlideoutController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VHSlideoutController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-VHSlideoutController_Example/Pods-VHSlideoutController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F514257C2E522A7C7F11F5BC /* Pods_VHSlideoutController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VHSlideoutController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -146,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				C7FC3CED1C43947B00F24A29 /* VHViewController.h */,
 				C7FC3CEE1C43947B00F24A29 /* VHViewController.m */,
+				C7FC3CF51C43A66D00F24A29 /* VHViewController+Tested.h */,
+				C7FC3CF61C43A66D00F24A29 /* VHViewController+Tested.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -169,6 +176,7 @@
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				C7FC3CF01C43A34000F24A29 /* SlideoutVCTest.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -391,6 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* VHAppDelegate.m in Sources */,
+				C7FC3CF71C43A66D00F24A29 /* VHViewController+Tested.m in Sources */,
 				C7FC3CEF1C43947B00F24A29 /* VHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -401,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				C7FC3CF11C43A34000F24A29 /* SlideoutVCTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

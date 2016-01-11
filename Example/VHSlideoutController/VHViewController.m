@@ -7,6 +7,7 @@
 //
 
 #import "VHViewController.h"
+#import "VHViewController+Tested.h"
 
 @interface VHViewController ()
 
